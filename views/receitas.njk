@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+{% block head%}
+
+    <title>Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+
+    <section class="receita">
+
+        {% for item in items%}
+
+            {# //{{loop.index0}} add um id ao item #}
+            <div class="receitas" id="{{loop.index0}}">
+                <img src="{{item.image}}" alt="" srcset="">
+                <h3 class="nome">{{item.title}}</h3>
+                <p class="autor">{{item.author}}</p>
+            </div>
+
+        {%endfor%}
+
+        </section>
+
+
+        <script src="/scripts.js"></script>
+
+    {% endblock %}

@@ -1,0 +1,191 @@
+/* importando a fonte  Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --color-rose: #FBDFDB;
+}
+
+h1, h2, h3, p, ul{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    margin: 0 125px;
+    /* background-color:rebeccapurple; */
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    text-align: inline;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color:var(--color-rose) ;
+    max-width: 100%;
+    padding: 32px;
+    text-align: center;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    margin: 45px 0px 0px 0px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #111111;
+    padding: 32px;
+    font-size: 20px;
+}
+
+.cabecalho img {
+    margin-right: 114px;
+    margin-bottom: -8px;
+}
+
+.sobre {
+    margin-top: 35px;
+    background-color: var(--color-rose);
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.sobre h1 {
+    padding-top: 45px;
+    padding-left: 95px;
+}
+
+.sobre p {
+    font-family: 'Roboto', sans-serif;
+    width: 35%;
+    padding-left: 95px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.sobre .image {
+    margin-top: -132px;
+    margin-left: 750px;
+    max-width: 100%;
+    
+}
+
+.titulo {
+    margin: 45px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* receitas  */
+
+.receita {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.receitas {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.receitas  img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.receitas h3 {
+    margin-top: 20px;
+}
+
+
+
+.conteudo {
+    margin-top: 60px;
+}
+
+.description h1 {
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px auto;
+    color: #777777;
+}
+
+
+.detalhe-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 15px auto;
+    
+}
+
+.detalhe-image {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.detalhe-preparo {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.detalhe-preparo p, ul {
+    margin-top: 15px;
+    color: #777777;
+    font-size: 20px;
+}
+
+
+
+.detalhe-preparo a{
+    background-color: var(--color-rose);
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;    
+    width: 20px;
+}
+
+ a.button:hover{
+    cursor: pointer;
+    background-color:hsl(0, 87%, 70%);
+}
+
+.content.show{
+    padding-bottom: 2%;
+    list-style-position: outside;
+}
+
+.content.hide{
+    max-width: 940px;
+    display: none;
+    overflow: hidden;
+}
+
+ul li{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.detalhe-ingrediente {
+    color: #777777;
+}
